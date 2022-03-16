@@ -14,5 +14,5 @@ int main(void)
 	{
 		_putchar(ermais[c]);
 	}
-return	(0);
+return (0);
 }
