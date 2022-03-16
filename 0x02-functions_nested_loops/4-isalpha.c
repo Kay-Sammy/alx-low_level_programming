@@ -1,14 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Main function
- * Description: program that returns 1 if c is a letter, lowercase or uppercase
- * Return: prints the numbers
+ * _isalpha - checks for alphabetic character
+ * @c: takes in a character
+ * Retrun: 1 if letter, lowercase, uppercase; 0 for otherwiese
  */
-int main(void)
+int _isalpha(int c)
 {
-	int _isalpha(int c)
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
-	return	((c >= 'a' && c<= 'z') || (c >= 'A' && c<= 'Z'));
+		return (1);
 	}
-return	(0);
+	else
+	{
+		return (0);
+	}
 }

@@ -1,8 +1,9 @@
-#include <stdio.h>
-/** main- Main function
- * Description: Program that prints putchar
+#include "main.h"
+/** 
+ * main - entry block
+ * @void: no argument
  * Return : 0
- */
+ **/
 int main(void)
 {
 	char ermais[] = "_putchar";

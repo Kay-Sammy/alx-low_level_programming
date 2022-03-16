@@ -1,20 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Main function
- * Description: program that prints the lowercase. followed by a new line
- * Return: prints the numbers
- */
-int main(void)
+ * print_alphabet - prints alphabet in lowercase
+ *
+ **/
+void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	ch = 'a';
-
-	while	( ch <=	'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-		_putchar('\n');
-	return	(0);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }

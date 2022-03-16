@@ -1,14 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Main function
- * Description: program that checks lowercase character
- * Return: Prints the numbers
+ * _islower - returns 1 if lowercase alphabet and 0 otherwise
+ * @c: takes in a character
+ * Return: 0 for uppercase, 1 for lowercase
  */
-int main(void)
+int _islower(int c)
 {
-	int _islower(int c);
+	if (c >= 'a' && c <= 'z')
 	{
-	return	(c >= 'a' && c <= 'z');
+		return (1);
 	}
-return (0);
+	else
+	{
+		return (0);
+	}
 }
