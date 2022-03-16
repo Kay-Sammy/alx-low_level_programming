@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks for alphabetic character
  * @c: takes in a character
- * Retrun: 1 if letter, lowercase, uppercase; 0 for otherwiese
+ * Return: 1 if letter, lowercase, uppercase; 0 for otherwiese
  */
 int _isalpha(int c)
 {
