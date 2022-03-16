@@ -1,8 +1,8 @@
 #include "main.h"
-/** 
+/**
  * main - entry block
  * @void: no argument
- * Return : 0
+ * Return: 0
  **/
 int main(void)
 {
@@ -14,5 +14,6 @@ int main(void)
 	{
 		_putchar(ermais[c]);
 	}
+	_putchar('\n');
 return (0);
 }
