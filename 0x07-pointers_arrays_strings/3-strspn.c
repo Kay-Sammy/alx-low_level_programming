@@ -15,7 +15,7 @@ int match = 0;
 
 while (s[i] != '\0')
 {
-if (_strchr(accept, s[i] == NULL)
+if (_strchr(accept, s[i]) == NULL)
 break;
 match++;
 i++;
