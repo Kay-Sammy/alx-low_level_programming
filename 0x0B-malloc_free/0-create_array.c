@@ -14,7 +14,7 @@ unsigned int index;
 
 if (size == 0)
 return (NULL);
-array = malloc(size of(char) * size);
+array = malloc(sizeof(char) * size);
 
 if (array == NULL)
 return (NULL);
