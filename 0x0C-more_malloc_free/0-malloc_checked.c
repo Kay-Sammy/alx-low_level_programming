@@ -2,7 +2,7 @@ include "main.h"
 
 /**
  * malloc_checked - allocates memory using malloc, exit(98) if it fails
- *@b: size of memory block to be allocated
+ * @b: size of memory block to be allocated
  *
  * Return: pointer to the address of memory block
  */
