@@ -36,3 +36,4 @@ free(new_doggo);
 return (NULL);
 }
 return (new_doggo);
+}
