@@ -108,7 +108,7 @@ printf(", ");
 }
 
 /**
- *make_nil - changes s to be "(nil)" if s is null
+ * make_nil - changes s to be "(nil)" if s is null
  * @s: string to be used
  *
  * Return: pointer to s
